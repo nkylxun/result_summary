@@ -8,13 +8,12 @@ html{
     font-family: 'Hanken Grotesk', sans-serif;
 }
 main{
-    width: 600px;
-    margin: 5vw auto;
+    width: 700px;
+    margin: 10% auto;
     display: flex;
-    letter-spacing: .1rem;
 }
 p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: hsl(241, 100%, 89%);
     font-weight: 500;
 }
@@ -22,12 +21,13 @@ p{
 /* ---------------------------------------------------------------------- */
 .result{
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    width: 300px;
+    width: 350px;
     border-radius: 20px;
     text-align: center;
-    padding: 30px 40px;
-    height: 450px;
+    padding: 40px;
+    height: 480px;
     z-index: 1;
+    font-size: 1.4rem;
 }
 .result h1{
     color: hsl(241, 100%, 89%);
@@ -35,10 +35,10 @@ p{
 .result h3{
     color: white;
     font-size: 2.5rem;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
-.result h4{
+.result h2{
     font-size: 6rem;
     color: hsl(0, 0%, 100%);
     background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
@@ -49,7 +49,7 @@ p{
     padding: 50px;
     font-weight: 800;
 }
-.result h4 span{
+.result h2 span{
     display: block;
     font-size: 1.4rem;
     color: hsl(241, 100%, 89%);
@@ -59,24 +59,25 @@ p{
 /* ----------------------------------------------------------------------- */
 .summary{
     background: hsl(0, 0%, 100%);
-    width: 330px;
+    width: 370px;
     text-align: left;
-    padding: 30px;
-    margin-left: 270px;
-    height: 450px;
+    padding: 40px;
+    margin-left: 320px;
+    height: 480px;
     box-shadow: 1px 1px 15px hsla(241, 72%, 46%, 0.3);
     z-index: 0;
     position: absolute;
     padding-left: 60px;
     border-radius: 0px 20px 20px 0px;
+    font-size: 1.4rem;
 }
 .summary ul{
     list-style: none;  
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .summary h4{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 .summary ul li{
     display: flex;
@@ -96,7 +97,7 @@ p{
     color: black;
 }
 .summary ul li p{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: rgba(0, 0, 0, 0.5);
     font-weight: 700;
 }
@@ -122,12 +123,13 @@ p{
 
 button.btn{
     width: 100%;
-    height: 40px;
+    height: 50px;
     background-color: hsl(224, 30%, 27%);
     color: white;
     border-radius: 50px;
-    padding: 10px;
+    padding: 15px;
     border: none;
+    font-size: 1.8rem;
 }
 button.btn:hover {
     cursor: pointer;
@@ -144,8 +146,7 @@ button.btn:hover {
         width: 100%;
         height: auto;
         position: relative;
-        left: -270px;
-        top: -20px;
+        left: -320px;
         padding-top: 40px;
         padding-left: 30px;
         border-radius: 0px 0px 20px 20px;
